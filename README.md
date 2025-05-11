@@ -32,15 +32,14 @@ Le tout repose sur une architecture client/serveur distribuée via SOAP.
 ## Pour lancer l'application
 
 ### 1. Démarrer le serveur SOAP :
-```
-Run Server.java
-```
+
+Dans IntelliJ : clic droit sur ```Server.java``` → **Run 'Server.main()'** .
+
 Le service sera disponible sur :
 http://localhost:8080/ws/roomService?wsdl
 
 ### 2. Démarrer les clients GUI :
-``` Run Gui.java ``` 
-Plusieurs fois : pour avoir plusieurs instances / utilisateurs différents
+Lancer `Gui.java` plusieurs fois pour simuler plusieurs utilisateurs .
 
 ### 3. Technologies :
 
